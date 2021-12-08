@@ -1,0 +1,119 @@
+body{
+    background:#f4f6f8;
+}
+
+nav{
+    box-shadow:  0 2px 3px rgb(28, 28, 28, 0.3);
+    background-color: #272d3c;
+}
+
+.card{
+    box-shadow:  0 2px 15px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand, .index .nav-link{
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.utama .nav-link:hover::after {
+    content: '';
+    display: block;
+    /* border-bottom: 3px solid #f12020; */
+    border-bottom: 3px solid #fdcf33;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+/* Footer */
+footer{
+    background-color: #272d3c;
+    color: #d9d9d9;
+    text-align: justify;
+    margin-top: 250px;
+}
+
+footer h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid #b6812f;
+}
+
+.kiri .isi .social{
+    margin: 20px 0 0 0;
+}
+.kiri .isi .social a{
+    padding: 0 2px;
+    color: white;
+}
+.kiri .isi .social a span{
+    height: 40px;
+    width: 40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.kiri .isi .social a span:hover{
+    background: #fdcf33;
+}
+
+.tengah .isi .fas{
+    font-size: 1.4375rem;
+    background: #1a1a1a;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.tengah .isi .fas:hover{
+    background: #fdcf33;
+}
+.tengah .isi .text{
+    font-size: 1.0625rem;
+    font-weight: 500;
+    padding-left: 10px;
+}
+.tengah .isi .phone{
+    margin: 15px 0;
+}
+
+.kanan a{
+    color: #d9d9d9;
+}
+
+.kanan a:hover{
+    color: #fdcf33;
+}
+
+
+
+/*login*/
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  
+.form-registration input{
+    border-radius: 0;
+    margin-bottom: -1px;
+}
